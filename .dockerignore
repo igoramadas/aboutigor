@@ -4,7 +4,6 @@
 .vscode/
 assets/build/
 node_modules/
-src/
 Makefile
 npm-debug.log
 settings.private.json
