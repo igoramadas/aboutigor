@@ -1,0 +1,40 @@
+{
+    "name": "aboutigor",
+    "version": "20.9.122",
+    "description": "Igor? Who, where, when, how?",
+    "author": "Igor Ramadas <igor@devv.com>",
+    "homepage": "https://aboutigor.com",
+    "license": "MIT",
+    "main": "lib/index.js",
+    "engines": {
+        "node": ">= 10.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/igoramadas/aboutigor.com.git"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "expresser": "^4.1.2",
+        "expresser-legacy": "^3.6.2",
+        "@octokit/rest": "^16.43.0",
+        "lastfm": "^0.9.3",
+        "strava": "^0.0.2"
+    },
+    "devDependencies": {
+        "coffeescript": "^2.5.1"
+    },
+    "domains": [
+        "aboutigor.com",
+        "www.aboutigor.com"
+    ],
+    "keywords": [
+        "about igor",
+        "aboutigor.com",
+        "igor",
+        "ramadas",
+        "igor ramadas"
+    ]
+}
