@@ -18,5 +18,5 @@ WORKDIR /app
 COPY . .
 COPY --from=aboutigor-builder ./app/lib ./lib
 COPY --from=aboutigor-dependencies ./app/node_modules ./node_modules
-EXPOSE 8080
+EXPOSE 8050
 CMD ["npm", "start"]
