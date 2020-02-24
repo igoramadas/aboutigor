@@ -1,0 +1,3 @@
+About Igor
+
+My personal website. Very old, boring, weird implementation from the times when I was experimenting things using CoffeeScript. It might be updated... one day...

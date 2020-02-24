@@ -1,0 +1,11 @@
+.DS_Store
+.prettierignore
+.history/
+.vscode/
+assets/build/
+node_modules/
+src/
+Makefile
+npm-debug.log
+settings.private.json
+start.sh

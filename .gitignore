@@ -1,0 +1,8 @@
+.DS_Store
+.history/
+.vscode/
+assets/build/
+node_modules/
+lib/
+settings.private.json
+start.sh

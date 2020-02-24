@@ -1,0 +1,12 @@
+{
+    "app": {
+        "port": 8080,
+        "title": "About Igor"
+    },
+    "general": {
+        "debug": false
+    },
+    "logger": {
+        "console": true
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "app": {
+        "viewPath": "./aboutigor/views/",
+        "publicPath": "./aboutigor/public/",
+        "connectAssets": {
+            "paths": ["aboutigor/assets/js", "aboutigor/assets/css"]
+        }
+    }
+}
