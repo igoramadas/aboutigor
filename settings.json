@@ -6,6 +6,9 @@
     "general": {
         "debug": false
     },
+    "lastfm": {
+        "user": "igoramadas"
+    },
     "logger": {
         "console": true
     }

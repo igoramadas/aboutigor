@@ -27,8 +27,8 @@ body
         .panel
             h1 Igor Ramadas
             .headline.
-                Born in Belo Horizonte (Brazil), living in Berlin (Germany), working with software since forever, father of 2,
-                working at Zalando, addicted to cycling and making the most out of his 24 daily hours.
+                Born in Belo Horizonte (Brazil), living in Berlin (Germany), father of 2, working
+                at Zalando, addicted to cycling, making the most out of his daily 24 hours.
             .links
                 a(href="https://twitter.com/igoramadas", title="Twit machine")  @ Twitter
                 a(href="https://instagram.com/igoramadas", title="Photo machine")  @ Instagram
@@ -36,8 +36,8 @@ body
         .panel
             h2 Software
             div.
-                Now mostly Node.js, TypeScript, JavaScript, Docker... Previously CoffeeScript, C#,
-                VB.NET, MSSQL, MongoDB... the list is long! GitHub'd #{recentGitHubCommitCount} commits
+                Now mostly Node.js, TypeScript, JavaScript, Docker... Previously C#,
+                VB.NET, MSSQL, Mongo... the list is long! #{recentGitHubCommitCount} public commits
                 in the last 30 days.
             .links
                 a(href="https://github.com/igoramadas", title="My open source activity at GitHub") @ GitHub
@@ -45,7 +45,7 @@ body
         .panel
             h2 Sports
             div.
-                Used to do a bit of everything. Now a bike addict, averaging 13k kilometers / year.
+                Used to do a bit of everything. Now a bike addict, averaging 10 to 13 thousand kilometers / year.
             .links
                 a(href="http://www.strava.com/athletes/ramadas", title="My activities at Strava") @ Strava
                 a(href="http://connect.garmin.com/modern/profile/igoramadas", title="My activities at Garmin Connect") @ Garmin Connect
@@ -62,10 +62,4 @@ body
         (function() {
             var i = Math.floor(Math.random() * 5) + 1;
             document.getElementById("bg").style.backgroundImage = "url(images/bg" + i + ".jpg)";
-
-            var uagent = navigator.userAgent.toLowerCase();
-
-            if (uagent.indexOf("windows phone") > 0) {
-                document.getElementsByTagName("body")[0].setAttribute("class", "mobile-ie");
-            }
         })();
