@@ -31,7 +31,7 @@ class GitHub
         minDate = moment().subtract(recentDays, "d").unix()
 
         try
-            data = await github.activity.listEventsForUser {username: "igoramadas", per_page: 100}, (err, data) ->
+            data = await github.activity.listEventsForAuthenticatedUser {username: "igoramadas", per_page: 100}, (err, data) ->
             arr = []
 
             for evt in data.data
