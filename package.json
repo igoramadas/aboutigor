@@ -1,6 +1,6 @@
 {
     "name": "aboutigor",
-    "version": "20.10.212",
+    "version": "20.18.318",
     "description": "Igor? Who, where, when, how?",
     "author": "Igor Ramadas <igor@devv.com>",
     "homepage": "https://aboutigor.com",
@@ -17,8 +17,8 @@
         "start": "node index.js"
     },
     "dependencies": {
-        "@octokit/rest": "^17.0.0",
-        "expresser": "^4.2.0",
+        "@octokit/rest": "^17.6.0",
+        "expresser": "^4.2.1",
         "expresser-legacy": "^3.6.3",
         "lastfm": "^0.9.3"
     },

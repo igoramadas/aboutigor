@@ -2,11 +2,11 @@
 FROM node:alpine AS aboutigor-builder
 WORKDIR /app
 COPY . .
-RUN npm install
-RUN node_modules/.bin/coffee -b --output lib --compile src
+RUN npm install && node_modules/.bin/coffee -b --output lib --compile src
 
 # DEPENDENCIES
 FROM node:alpine AS aboutigor-dependencies
+ENV NODE_ENV=production
 WORKDIR /app
 COPY . .
 RUN apk update && apk upgrade && npm install --production
