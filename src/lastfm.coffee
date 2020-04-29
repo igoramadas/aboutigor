@@ -40,8 +40,13 @@ class LastFm
             artists = data?.topartists.artist
             cache.set "lastfm-recent-topartists", artists
             expresser.logger.info "LastFm.recentTopArtists", lodash.map(artists, "name").join()
+        errCallback = (err) ->
+            expresser.logger.error "LastFm.recentTopArtists", err
 
-        lastfm.request "user.getTopArtists", {period: recentPeriod, limit: 8, user: apiUser, handlers: {success: callback}}
+        try
+            lastfm.request "user.getTopArtists", {period: recentPeriod, limit: 8, user: apiUser, handlers: {success: callback, error: errCallback}}
+        catch ex
+            expresser.logger.error "LastFm.recentTopArtists", ex
 
 # Singleton implementation
 # -----------------------------------------------------------------------------
