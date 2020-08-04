@@ -1,18 +1,18 @@
 # BUILDER
-FROM node:14-alpine AS aboutigor-builder
+FROM node:alpine AS aboutigor-builder
 WORKDIR /app
 COPY . .
 RUN npm install && node_modules/.bin/coffee -b --output lib --compile src
 
 # DEPENDENCIES
-FROM node:14-alpine AS aboutigor-dependencies
+FROM node:alpine AS aboutigor-dependencies
 ENV NODE_ENV=production
 WORKDIR /app
 COPY . .
 RUN apk update && apk upgrade && npm install --production
 
 # FINAL IMAGE
-FROM node:14-alpine AS aboutigor-final
+FROM node:alpine AS aboutigor-final
 ENV NODE_ENV=production
 WORKDIR /app
 COPY . .
