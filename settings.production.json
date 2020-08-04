@@ -1,5 +1,6 @@
 {
     "app": {
+        "port": 80,
         "viewPath": "/app/assets/views/",
         "publicPath": "/app/public/",
         "connectAssets": {
