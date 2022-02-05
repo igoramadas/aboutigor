@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Devv</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Igor Ramadas." />
+        <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" />
+        <link rel="stylesheet" href="assets/styles.css" />
+        <link rel="icon" type="image/icon" href="favicon.ico" />
+    </head>
+    <body>
+        <div id="bg"></div>
+        <div id="wrapper">
+            <div class="panel">
+                <h1>Igor Ramadas</h1>
+                <div class="headline">Born in Belo Horizonte (Brazil), living in Berlin (Germany), father of 2, working at Zalando, addicted to cycling, making the most out of his daily 24 hours.</div>
+                <div class="links">
+                    <a href="https://twitter.com/igoramadas" title="Twit machine">@ Twitter</a>
+                    <a href="https://instagram.com/igoramadas" title="Photo machine">@ Instagram</a>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Software</h2>
+                <div>Now mostly Node.js, TypeScript, JavaScript, Docker... Previously C#, VB.NET, MSSQL, Mongo... the list is long! #{recentGitHubCommitCount} public commits in the last 30 days.</div>
+                <div class="links">
+                    <a href="https://github.com/igoramadas" title="My open source activity at GitHub">@ GitHub</a>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Sports</h2>
+                <div>Used to do a bit of everything. Now a bike addict, averaging 10 to 13 thousand kilometers / year.</div>
+                <div class="links">
+                    <a href="http://www.strava.com/athletes/ramadas" title="My activities at Strava">@ Strava</a>
+                    <a href="http://connect.garmin.com/modern/profile/igoramadas" title="My activities at Garmin Connect">@ Garmin</a>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Music</h2>
+                <div></div>
+                <div class="links">
+                    <a href="http://www.last.fm/user/igoramadas" title="My music profile at Last.fm">@ Last.fm</a>
+                    <a href="https://music.youtube.com/channel/UCt6i93W3wrhOkVrDBaG9CPw" title="My playlists at YouTube Music">@ YouTube</a>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Side Projects</h2>
+                <ul class="links">
+                    <li><a href="https://strautomator.com" title="Automate your Strava!">Strautomator</a></li>
+                    <li><a href="https://pandagainz.com" title="Calculate your Bitpanda profits (or losses)">PandaGainz</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <script>
+            ;(function () {
+                var i = Math.floor(Math.random() * 5) + 1
+                document.getElementById("bg").style.backgroundImage = "url(images/bg" + i + ".jpg)"
+            })()
+        </script>
+    </body>
+</html>

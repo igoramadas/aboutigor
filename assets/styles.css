@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background: #000;
+    color: #f0f5fa;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    color: #fad26e;
+    text-decoration: none;
+}
+a:hover {
+    color: #eb9632;
+}
+h1 {
+    font-size: 54px;
+    margin: 20px 0 40px -2px;
+}
+h2 {
+    font-size: 18px;
+    margin: 12px 0 6px 0;
+    padding: 0;
+}
+#bg {
+    background: no-repeat center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    height: 100%;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    z-index: 3;
+    text-align: left;
+}
+.hidden {
+    display: none;
+}
+.center {
+    text-align: center !important;
+}
+.panel {
+    margin: auto;
+    padding: 10px 12px 6px 12px;
+    line-height: 24px;
+}
+.links {
+    margin-top: 8px;
+}
+.links a {
+    margin-right: 16px;
+}
+ul {
+    margin: 0;
+    padding: 0 0 0 18px;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
